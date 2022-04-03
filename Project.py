@@ -51,97 +51,97 @@ y_predNb = nb.predict(X_test)
 Credit_Card_Exceed_Months = st.sidebar.slider(
     "Credit Card Exceed Month",
     int(X['Credit_Card_Exceed_Months'].min()), int(X['Credit_Card_Exceed_Months'].max()),
-    value=np.int(X['Credit_Card_Exceed_Months'].mean())
+    value=int(X['Credit_Card_Exceed_Months'].mean())
 )
 
 Loan_Amount = st.sidebar.slider(
     "Loan Amount",
     int(X['Loan_Amount'].min()), int(X['Loan_Amount'].max()),
-    value=np.int(X['Loan_Amount'].mean())
+    value=int(X['Loan_Amount'].mean())
 )
 
 Loan_Tenure_Year = st.sidebar.slider(
     "Loan Amount",
     int(X['Loan_Tenure_Year'].min()), int(X['Loan_Tenure_Year'].max()),
-    value=np.int(X['Loan_Tenure_Year'].mean())
+    value=int(X['Loan_Tenure_Year'].mean())
 )
 
 Credit_Card_More_Than_Months = st.sidebar.slider(
     "Credit Card More Than Months",
     int(X['Credit_Card_More_Than_Months'].min()), int(X['Credit_Card_More_Than_Months'].max()),
-    value=np.int(X['Credit_Card_More_Than_Months'].mean())
+    value=int(X['Credit_Card_More_Than_Months'].mean())
 )
 
 Number_of_Dependents = st.sidebar.slider(
     "Number of Dependents",
     int(X['Number_of_Dependents'].min()), int(X['Number_of_Dependents'].max()),
-    value=np.int(X['Number_of_Dependents'].mean())
+    value=int(X['Number_of_Dependents'].mean())
 )
 
 Years_to_Financial_Freedom = st.sidebar.slider(
     "Years to Financial Freedom",
     int(X['Years_to_Financial_Freedom'].min()), int(X['Years_to_Financial_Freedom'].max()),
-    value=np.int(X['Years_to_Financial_Freedom'].mean())
+    value=int(X['Years_to_Financial_Freedom'].mean())
 )
 
 Number_of_Credit_Card_Facility = st.sidebar.slider(
     "Number of Credit Card Facility",
     int(X['Number_of_Credit_Card_Facility'].min()), int(X['Number_of_Credit_Card_Facility'].max()),
-    value=np.int(X['Number_of_Credit_Card_Facility'].mean())
+    value=int(X['Number_of_Credit_Card_Facility'].mean())
 )
 
 Number_of_Properties = st.sidebar.slider(
     "Number of Properties",
     int(X['Number_of_Properties'].min()), int(X['Number_of_Properties'].max()),
-    value=np.int(X['Number_of_Properties'].mean())
+    value=int(X['Number_of_Properties'].mean())
 )
 
 Number_of_Bank_Products = st.sidebar.slider(
     "Number of Bank_Products",
     int(X['Number_of_Bank_Products'].min()), int(X['Number_of_Bank_Products'].max()),
-    value=np.int(X['Number_of_Bank_Products'].mean())
+    value=int(X['Number_of_Bank_Products'].mean())
 )
 
 Number_of_Loan_to_Approve = st.sidebar.slider(
     "Number of Loan to Approve",
     int(X['Number_of_Loan_to_Approve'].min()), int(X['Number_of_Loan_to_Approve'].max()),
-    value=np.int(X['Number_of_Loan_to_Approve'].mean())
+    value=int(X['Number_of_Loan_to_Approve'].mean())
 )
 
 Years_for_Property_to_Completion = st.sidebar.slider(
     "Years for Property to Completion",
     int(X['Years_for_Property_to_Completion'].min()), int(X['Years_for_Property_to_Completion'].max()),
-    value=np.int(X['Years_for_Property_to_Completion'].mean())
+    value=int(X['Years_for_Property_to_Completion'].mean())
 )
 
 Number_of_Side_Income = st.sidebar.slider(
     "Number of Side Income",
     int(X['Number_of_Side_Income'].min()), int(X['Number_of_Side_Income'].max()),
-    value=np.int(X['Number_of_Side_Income'].mean())
+    value=int(X['Number_of_Side_Income'].mean())
 )
 
 Monthly_Salary = st.sidebar.slider(
     "Monthly Salary",
     int(X['Monthly_Salary'].min()), int(X['Monthly_Salary'].max()),
-    value=np.int(X['Monthly_Salary'].mean())
+    value=int(X['Monthly_Salary'].mean())
 )
 
 Total_Sum_of_Loan = st.sidebar.slider(
     "Total Sum of Loan",
     int(X['Total_Sum_of_Loan'].min()), int(X['Total_Sum_of_Loan'].max()),
-    value=np.int(X['Total_Sum_of_Loan'].mean())
+    value=int(X['Total_Sum_of_Loan'].mean())
 )
 
 Total_Income_for_Join_Application = st.sidebar.slider(
     "Total Income for Join Application",
     int(X['Total_Income_for_Join_Application'].min()), int(X['Total_Income_for_Join_Application'].max()),
-    value=np.int(X['Total_Income_for_Join_Application'].mean())
+    value=int(X['Total_Income_for_Join_Application'].mean())
 )
 
 Score = st.sidebar.slider(
     "Score",
     int(X['Score'].min()), int(X['Score'].max()),
-    value=np.int(X['Score'].mean())
+    value=int(X['Score'].mean())
 )
 
 # Results
