@@ -4,17 +4,14 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import altair as alt
-from vega_datasets import data
 
 import seaborn as sns; sns.set()
 
-from sklearn import preprocessing # label encoding
 from sklearn.tree import DecisionTreeClassifier # Import Decision Tree Classifier
 
 from IPython.display import Image  
 from sklearn import tree
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import cross_val_score, cross_val_predict
 
 from sklearn.cluster import KMeans 
 
