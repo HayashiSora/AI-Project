@@ -192,7 +192,7 @@ elif(obj == 'State'):
 elif(obj == 'Decision'):
     cn=list(dict.fromkeys(bank['Decision']))
 
-fig, axes = plt.subplots(nrows = 1,ncols = 1,figsize = (5,5), dpi=1200)
+fig, axes = plt.subplots(nrows = 1,ncols = 1,figsize = (5,5), dpi=300)
 tree.plot_tree(clf,
                feature_names = fn, 
                class_names=cn,
